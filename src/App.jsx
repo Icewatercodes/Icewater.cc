@@ -9,6 +9,13 @@ function App() {
 
   return (
     <>
+    <section>
+      <div id="navbar">
+          <svg>
+            <use></use>
+          </svg>
+      </div>
+    </section>
       <section id="center">
         <div className="hero">
           <img src={heroImg} className="base" width="170" height="179" alt="" />
